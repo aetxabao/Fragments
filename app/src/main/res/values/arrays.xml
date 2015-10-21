@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zonas">
+        <item>@string/zona1</item>
+        <item>@string/zona2</item>
+        <item>@string/zona3</item>
+        <item>@string/zona4</item>
+        <item>@string/zona5</item>
+    </string-array>
+</resources>

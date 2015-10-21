@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Puskak</string>
+<string name="action_settings">Ezarpenak</string>
+
+<string name="title">Nafarroako merindadeak</string>
+
+<string name="zona1">Iruña</string>
+<string name="zona2">Lizarra</string>
+<string name="zona3">Erriberri</string>
+<string name="zona4">Zangoza</string>
+<string name="zona5">Tutera</string>
+
+<string name="title_activity_detalle">EzaugarriEkintza</string>
+</resources>

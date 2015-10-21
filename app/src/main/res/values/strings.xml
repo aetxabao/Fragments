@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Merindades de Navarra</string>
+
+    <string name="zona1">Pamplona</string>
+    <string name="zona2">Estella</string>
+    <string name="zona3">Olite</string>
+    <string name="zona4">Sangüesa</string>
+    <string name="zona5">Tudela</string>
+
+    <string name="title_activity_detalle">DetalleActivity</string>
+</resources>
