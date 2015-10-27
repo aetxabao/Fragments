@@ -7,4 +7,12 @@
         <item>@string/zona4</item>
         <item>@string/zona5</item>
     </string-array>
+    <string-array name="webs">
+        <item>@string/web0</item>
+        <item>@string/web1</item>
+        <item>@string/web2</item>
+        <item>@string/web3</item>
+        <item>@string/web4</item>
+        <item>@string/web5</item>
+    </string-array>
 </resources>

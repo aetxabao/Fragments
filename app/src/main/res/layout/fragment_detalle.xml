@@ -4,9 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView android:id="@+id/ImgZona"
+    <WebView android:id="@+id/WebViewZona"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/zona0"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>

@@ -11,5 +11,12 @@
     <string name="zona4">Sangüesa</string>
     <string name="zona5">Tudela</string>
 
+    <string name="web0">https://es.wikipedia.org/wiki/Merindades_de_Navarra</string>
+    <string name="web1">https://es.wikipedia.org/wiki/Anexo:Localidades_de_la_merindad_de_Pamplona</string>
+    <string name="web2">https://es.wikipedia.org/wiki/Anexo:Localidades_de_la_merindad_de_Estella</string>
+    <string name="web3">https://es.wikipedia.org/wiki/Anexo:Localidades_de_la_merindad_de_Olite</string>
+    <string name="web4">https://es.wikipedia.org/wiki/Anexo:Localidades_de_la_merindad_de_Sangüesa</string>
+    <string name="web5">https://es.wikipedia.org/wiki/Anexo:Localidades_de_la_merindad_de_Tudela</string>
+
     <string name="title_activity_detalle">DetalleActivity</string>
 </resources>

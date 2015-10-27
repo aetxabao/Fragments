@@ -7,6 +7,8 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity implements ZonaListener {
 
+    boolean hayDetalle = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,12 +19,16 @@ public class MainActivity extends AppCompatActivity implements ZonaListener {
         // y en el método onZonaSeleccionada se indica que sucede al seleccionar una zona
         ListadoFragment frgListado = (ListadoFragment)getFragmentManager().findFragmentById(R.id.ListadoFragment);
         frgListado.setZonaListener(this);
+
+        hayDetalle = (getFragmentManager().findFragmentById(R.id.DetalleFragment) != null);
+        if (hayDetalle){
+            ((DetalleFragment)getFragmentManager().findFragmentById(R.id.DetalleFragment)).mostrarDetalle(0);
+        }
     }
 
     @Override
     public void onZonaSeleccionada(int iZona) {
         //Si el fragmento para el detalle existe el layout es grande, sino se utiliza el intent
-        boolean hayDetalle = (getFragmentManager().findFragmentById(R.id.DetalleFragment) != null);
         Log.d("LSTFRG", "hayDetalle " + hayDetalle);
         if (hayDetalle){
             ((DetalleFragment)getFragmentManager().findFragmentById(R.id.DetalleFragment)).mostrarDetalle(iZona);

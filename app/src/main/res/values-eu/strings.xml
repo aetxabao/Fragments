@@ -11,5 +11,12 @@
 <string name="zona4">Zangoza</string>
 <string name="zona5">Tutera</string>
 
+<string name="web0">https://eu.wikipedia.org/wiki/Merindade#Nafarroako_merindadeak</string>
+<string name="web1">https://eu.wikipedia.org/wiki/Iruñeko_merindadea</string>
+<string name="web2">https://eu.wikipedia.org/wiki/Lizarrako_merindadea</string>
+<string name="web3">https://eu.wikipedia.org/wiki/Erriberriko_merindadea</string>
+<string name="web4">https://eu.wikipedia.org/wiki/Zangozako_merindadea</string>
+<string name="web5">https://eu.wikipedia.org/wiki/Tuterako_merindadea</string>
+
 <string name="title_activity_detalle">EzaugarriEkintza</string>
 </resources>
